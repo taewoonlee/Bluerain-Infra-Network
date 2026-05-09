@@ -1,0 +1,40 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Law-Guard Secure Hybrid Security Architecture</title>
+  <desc id="desc">Five-step hybrid security architecture flow with AI-assisted automated response.</desc>
+  <rect width="1200" height="420" rx="22" fill="#F4F7FD"/>
+  <text x="600" y="36" text-anchor="middle" fill="#808CA6" font-size="23" font-family="Segoe UI, Arial" font-weight="700">Law-Guard Secure - Hybrid Security Architecture</text>
+
+  <g font-family="Segoe UI, Arial" font-weight="700" font-size="14" fill="#F7FAFF" text-anchor="middle">
+    <rect x="36" y="62" width="208" height="56" rx="14" fill="#4F6FA8"/><text x="140" y="84">Log Collection</text><text x="140" y="104">&amp; Parsing Module</text>
+    <rect x="270" y="62" width="208" height="56" rx="14" fill="#4F6FA8"/><text x="374" y="84">Security Event</text><text x="374" y="104">Detection Module</text>
+    <rect x="504" y="62" width="208" height="56" rx="14" fill="#4568A9"/><text x="608" y="84">Security Event</text><text x="608" y="104">Response Module</text>
+    <rect x="738" y="62" width="208" height="56" rx="14" fill="#4F6FA8"/><text x="842" y="84">Dashboard &amp;</text><text x="842" y="104">Reporting Module</text>
+    <rect x="972" y="62" width="192" height="56" rx="14" fill="#4F6FA8"/><text x="1068" y="84">SOC Operations</text><text x="1068" y="104">Module</text>
+  </g>
+
+  <g stroke="#6F9EDD" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M245 90H264"/><path d="M479 90H498"/><path d="M713 90H732"/><path d="M947 90H966"/>
+  </g>
+  <g fill="#6F9EDD">
+    <polygon points="264,80 284,90 264,100"/>
+    <polygon points="498,80 518,90 498,100"/>
+    <polygon points="732,80 752,90 732,100"/>
+    <polygon points="966,80 986,90 966,100"/>
+  </g>
+
+  <rect x="454" y="148" width="292" height="110" rx="20" fill="url(#aiGlow)" stroke="#9CC7FF" stroke-width="2"/>
+  <circle cx="600" cy="202" r="42" fill="#2B4F8D" stroke="#A9D1FF" stroke-width="4"/>
+  <text x="600" y="212" text-anchor="middle" fill="#DDF1FF" font-size="24" font-family="Segoe UI, Arial" font-weight="800">AI</text>
+  <text x="600" y="292" text-anchor="middle" fill="#4C668F" font-size="12" font-family="Segoe UI, Arial" font-weight="700">AI-assisted Automated Response</text>
+  <text x="600" y="314" text-anchor="middle" fill="#5B7298" font-size="11" font-family="Segoe UI, Arial" font-weight="700">Policy-based Auto Action</text>
+
+  <path d="M376 120V188H454" stroke="#7EA7D7" stroke-width="4" stroke-dasharray="8 8"/>
+  <path d="M824 120V188H746" stroke="#7EA7D7" stroke-width="4" stroke-dasharray="8 8"/>
+
+  <defs>
+    <linearGradient id="aiGlow" x1="454" y1="195" x2="746" y2="327" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E3F2FF"/>
+      <stop offset="1" stop-color="#D3E7FF"/>
+    </linearGradient>
+  </defs>
+</svg>

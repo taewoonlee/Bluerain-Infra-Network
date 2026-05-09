@@ -32,6 +32,12 @@ a { color: inherit; text-decoration: none; }
 }
 .site-header.compact h1 { font-size: 1.3rem; }
 .brand-wrap { display: flex; align-items: center; gap: .9rem; }
+.company-logo {
+  width: 142px;
+  max-width: 38vw;
+  height: auto;
+  display: block;
+}
 .logo-mark {
   width: 44px; height: 44px; border-radius: 50%;
   display: grid; place-items: center;
@@ -40,6 +46,7 @@ a { color: inherit; text-decoration: none; }
 }
 .brand-wrap h1 { margin: 0; letter-spacing: .04em; }
 .brand-wrap p { margin: 0; color: var(--muted); font-size: .9rem; }
+.site-header.compact .company-logo { width: 126px; }
 nav { display: flex; gap: 1rem; }
 nav a { color: var(--white); opacity: .9; }
 nav a:hover { color: var(--primary); }

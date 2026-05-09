@@ -246,3 +246,30 @@ footer {
   .stage-brand { flex-direction: column; align-items: flex-start; }
   .stage-panels { grid-template-columns: 1fr; }
 }
+
+.architecture-submenu .architecture-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 1rem;
+  align-items: start;
+}
+.architecture-side {
+  border: 1px solid rgba(143, 204, 255, .33);
+  background: rgba(8, 21, 36, .62);
+  border-radius: 12px;
+  padding: .85rem;
+}
+.architecture-side h4 {
+  margin: 0 0 .6rem;
+  color: #8bd7ff;
+  font-size: 1rem;
+}
+.architecture-side img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  background: #f4f7fd;
+}
+@media (max-width: 980px) {
+  .architecture-submenu .architecture-layout { grid-template-columns: 1fr; }
+}
